@@ -78,7 +78,7 @@ body {
     min-width:320px; min-height:540px;
     text-align:center;
     font-family:'Yanone Kaffeesatz', arial, sans-serif;
-    background:transparent url(../img/shimmer.png) top center no-repeat;
+    background:transparent url(../img/shimmer-bg.png) top center no-repeat;
     color:#7d7f80;
 }
 
