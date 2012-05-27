@@ -114,9 +114,9 @@ div.soon p {
     text-transform:uppercase;
     text-shadow:#bbbebf 0 5px 0, rgba(0,0,0,.25) 0 5px 5px;
     /* filter:dropshadow(color='#bbbebf', offx=0, offy=5); looks awful :/ */
-    transition:all 100ms ease-in-out;
-    -moz-transition:all 100ms ease-in-out;
     -webkit-transition:all 100ms ease-in-out;
+    -moz-transition:all 100ms ease-in-out;
+    transition:all 100ms ease-in-out;
 }
 
 div.soon p:hover {
@@ -170,29 +170,29 @@ ul.socialist li a {
 
 ul.socialist li {
     margin:5px;
-    border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
-    box-shadow:#bfbfbf 0 0 2px;
-    -moz-box-shadow:#bfbfbf 0 0 2px;
+    -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
     -webkit-box-shadow:#bfbfbf 0 0 2px;
+    -moz-box-shadow:#bfbfbf 0 0 2px;
+    box-shadow:#bfbfbf 0 0 2px;
     display:block;
     float:left;
     list-style-type:none;
-    background-position:-192px -48px;
-    transition:box-shadow 100ms ease-in-out;
-    -moz-transition:-moz-box-shadow 100ms ease-in-out;
+    background-position:-264px -48px;
     -webkit-transition:-webkit-box-shadow 100ms ease-in-out;
+    -moz-transition:-moz-box-shadow 100ms ease-in-out;
+    transition:box-shadow 100ms ease-in-out;
 }
 
 ul.socialist li:hover {
-    box-shadow:#bfbfbf 0 0 4px;
-    -moz-box-shadow:#bfbfbf 0 0 4px;
     -webkit-box-shadow:#bfbfbf 0 0 4px;
+    -moz-box-shadow:#bfbfbf 0 0 4px;
+    box-shadow:#bfbfbf 0 0 4px;
 }
 
 ul.socialist li:active {
-    box-shadow:#bfbfbf 0 0 1px;
-    -moz-box-shadow:#bfbfbf 0 0 1px;
     -webkit-box-shadow:#bfbfbf 0 0 1px;
+    -moz-box-shadow:#bfbfbf 0 0 1px;
+    box-shadow:#bfbfbf 0 0 1px;
 }
 
 ul.socialist li a {
@@ -200,9 +200,9 @@ ul.socialist li a {
     width:24px; height:24px;
     display:inline-block;
     text-indent:-9999px;
-    transition:top 100ms ease-in-out;
-    -moz-transition:top 100ms ease-in-out;
     -webkit-transition:top 100ms ease-in-out;
+    -moz-transition:top 100ms ease-in-out;
+    transition:top 100ms ease-in-out;
 }
 
 ul.socialist li:hover a             { top:-4px; }
@@ -213,107 +213,103 @@ ul.socialist li:active a            { top:-1px; }
 ul.socialist li.linkedin a           { background-position:0 0; }
 ul.socialist li.linkedin:hover a     { background-position:0 -24px; }
 ul.socialist li.linkedin:hover {
-    box-shadow:rgba(0,76,117,.75) 0 0 4px;
-    -moz-box-shadow:rgba(0,76,117,.75) 0 0 4px;
     -webkit-box-shadow:rgba(0,76,117,.75) 0 0 4px;
+    -moz-box-shadow:rgba(0,76,117,.75) 0 0 4px;
+    box-shadow:rgba(0,76,117,.75) 0 0 4px;
     background-position:0 -48px;
 }
 
-ul.socialist li.forrst a          { background-position:-24px 0; }
-ul.socialist li.forrst:hover a    { background-position:-24px -24px; }
-ul.socialist li.forrst:hover {
-    box-shadow:rgba(0,46,23,.75) 0 0 4px;
-    -moz-box-shadow:rgba(0,46,23,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(0,46,23,.75) 0 0 4px;
+ul.socialist li.github a            { background-position:-24px 0; }
+ul.socialist li.github:hover a      { background-position:-24px -24px; }
+ul.socialist li.github:hover {
+    -webkit-box-shadow:rgba(0,0,0,.5) 0 0 4px;
+    -moz-box-shadow:rgba(0,0,0,.5) 0 0 4px;
+    box-shadow:rgba(0,0,0,.5) 0 0 4px;
     background-position:-24px -48px;
 }
 
-ul.socialist li.github a            { background-position:-48px 0; }
-ul.socialist li.github:hover a      { background-position:-48px -24px; }
-ul.socialist li.github:hover {
-    box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    -moz-box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    -webkit-box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    background-position:-48px -48px;
-}
+ul.socialist li.stackoverflow a           { background-position:-48px 0; }
+ul.socialist li.stackoverflow:hover a     { background-position:-48px -24px; }
+ul.socialist li.stackoverflow:hover       { background-position:-48px -48px; }
 
 ul.socialist li.delicious a            { background-position:-72px 0; }
 ul.socialist li.delicious:hover a      { background-position:-72px -24px; }
 ul.socialist li.delicious:hover {
-    box-shadow:rgba(145,145,145,.75) 0 0 4px;
-    -moz-box-shadow:rgba(145,145,145,.75) 0 0 4px;
     -webkit-box-shadow:rgba(145,145,145,.75) 0 0 4px;
+    -moz-box-shadow:rgba(145,145,145,.75) 0 0 4px;
+    box-shadow:rgba(145,145,145,.75) 0 0 4px;
     background-position:-72px -48px;
 }
 
-ul.socialist li.greader a         { background-position:-96px 0; }
-ul.socialist li.greader:hover a   { background-position:-96px -24px; }
-ul.socialist li.greader:hover {
-    box-shadow:rgba(0,102,36,.75) 0 0 4px;
-    -moz-box-shadow:rgba(0,102,36,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(0,102,36,.75) 0 0 4px;
+ul.socialist li.dribbble a            { background-position:-96px 0; }
+ul.socialist li.dribbble:hover a      { background-position:-96px -24px; }
+ul.socialist li.dribbble:hover {
+    -webkit-box-shadow:rgba(161,51,93,.75) 0 0 4px;
+    -moz-box-shadow:rgba(161,51,93,.75) 0 0 4px;
+    box-shadow:rgba(161,51,93,.75) 0 0 4px;
     background-position:-96px -48px;
 }
 
-ul.socialist li.lastfm a           { background-position:-120px 0; }
-ul.socialist li.lastfm:hover a     { background-position:-120px -24px; }
-ul.socialist li.lastfm:hover {
-    box-shadow:rgba(140,11,4,.75) 0 0 4px;
-    -moz-box-shadow:rgba(140,11,4,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(140,11,4,.75) 0 0 4px;
+ul.socialist li.instagram a            { background-position:-120px 0; }
+ul.socialist li.instagram:hover a      { background-position:-120px -24px; }
+ul.socialist li.instagram:hover {
+    -webkit-box-shadow:rgba(116,112,106,.75) 0 0 4px;
+    -moz-box-shadow:rgba(116,112,106,.75) 0 0 4px;
+    box-shadow:rgba(116,112,106,.75) 0 0 4px;
     background-position:-120px -48px;
 }
 
-ul.socialist li.dribbble a            { background-position:-144px 0; }
-ul.socialist li.dribbble:hover a      { background-position:-144px -24px; }
-ul.socialist li.dribbble:hover {
-    box-shadow:rgba(161,51,93,.75) 0 0 4px;
-    -moz-box-shadow:rgba(161,51,93,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(161,51,93,.75) 0 0 4px;
+ul.socialist li.soundcloud a        { background-position:-144px 0; }
+ul.socialist li.soundcloud:hover a  { background-position:-144px -24px; }
+ul.socialist li.soundcloud:hover {
+    -webkit-box-shadow:rgba(191,43,2,.75) 0 0 4px;
+    -moz-box-shadow:rgba(191,43,2,.75) 0 0 4px;
+    box-shadow:rgba(191,43,2,.75) 0 0 4px;
     background-position:-144px -48px;
 }
 
-ul.socialist li.tumblr a            { background-position:-168px 0; }
-ul.socialist li.tumblr:hover a      { background-position:-168px -24px; }
-ul.socialist li.tumblr:hover {
-    box-shadow:rgba(46,56,71,.75) 0 0 4px;
-    -moz-box-shadow:rgba(46,56,71,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(46,56,71,.75) 0 0 4px;
+ul.socialist li.lastfm a           { background-position:-168px 0; }
+ul.socialist li.lastfm:hover a     { background-position:-168px -24px; }
+ul.socialist li.lastfm:hover {
+    -webkit-box-shadow:rgba(140,11,4,.75) 0 0 4px;
+    -moz-box-shadow:rgba(140,11,4,.75) 0 0 4px;
+    box-shadow:rgba(140,11,4,.75) 0 0 4px;
     background-position:-168px -48px;
 }
 
-ul.socialist li.youtube a           { background-position:-192px 0; }
-ul.socialist li.youtube:hover a     { background-position:-192px -24px; }
-ul.socialist li.youtube:hover       { background-position:-192px -48px; }
-
-ul.socialist li.gowalla a           { background-position:-216px 0; }
-ul.socialist li.gowalla:hover a     { background-position:-216px -24px; }
-ul.socialist li.gowalla:hover       {
-    box-shadow:rgba(168,101,0,.75) 0 0 4px;
-    -moz-box-shadow:rgba(168,101,0,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(168,101,0,.75) 0 0 4px;
-    background-position:-216px -48px;
+ul.socialist li.tumblr a            { background-position:-192px 0; }
+ul.socialist li.tumblr:hover a      { background-position:-192px -24px; }
+ul.socialist li.tumblr:hover {
+    -webkit-box-shadow:rgba(46,56,71,.75) 0 0 4px;
+    -moz-box-shadow:rgba(46,56,71,.75) 0 0 4px;
+    box-shadow:rgba(46,56,71,.75) 0 0 4px;
+    background-position:-192px -48px;
 }
 
-ul.socialist li.fancy a            { background-position:-240px 0; }
-ul.socialist li.fancy:hover a      { background-position:-240px -24px; }
-ul.socialist li.fancy:hover        { background-position:-240px -48px; }
+ul.socialist li.youtube a           { background-position:-216px 0; }
+ul.socialist li.youtube:hover a     { background-position:-216px -24px; }
+ul.socialist li.youtube:hover       { background-position:-216px -48px; }
 
-ul.socialist li.soundcloud a        { background-position:-264px 0; }
-ul.socialist li.soundcloud:hover a  { background-position:-264px -24px; }
-ul.socialist li.soundcloud:hover {
-    box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    -moz-box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    -webkit-box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    background-position:-264px -48px;
+ul.socialist li.foursquare a            { background-position:-240px 0; }
+ul.socialist li.foursquare:hover a      { background-position:-240px -24px; }
+ul.socialist li.foursquare:hover {
+    -webkit-box-shadow:rgba(6,93,111,.75) 0 0 4px;
+    -moz-box-shadow:rgba(6,93,111,.75) 0 0 4px;
+    box-shadow:rgba(6,93,111,.75) 0 0 4px;
+    background-position:-240px -48px;
 }
+
+ul.socialist li.fancy a            { background-position:-264px 0; }
+ul.socialist li.fancy:hover a      { background-position:-264px -24px; }
+ul.socialist li.fancy:hover        { background-position:-264px -48px; }
+
 
 
 /* Grade-A Mobile Browsers */
 @media screen and (max-device-width:480px) and (orientation:portrait) {
     html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
 
-    body { min-height:356px; }
+    body { min-height:416px; }
 
     div.middlr.main { top:33%; }
     div.middlr.secondary { top:75%; }
@@ -322,7 +318,7 @@ ul.socialist li.soundcloud:hover {
 @media screen and (max-device-width:480px) and (orientation:landscape) {
     html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
 
-    body { min-height:208px; }
+    body { min-height:268px; }
 
     div.middlr.main { top:25%; }
     div.middlr.secondary { top:66%; }
