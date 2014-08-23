@@ -58,7 +58,7 @@ a:link { -webkit-tap-highlight-color:#f90; }
 button {  width:auto; overflow:visible; }
 .ie7 img { -ms-interpolation-mode:bicubic; }
 
-.ir { display:block; text-indent:-999em; overflow:hidden; background-repeat:no-repeat; }
+.ir { display:block; direction:ltr; text-indent:-999em; overflow:hidden; background-repeat:no-repeat; }
 .hidden { display:none; visibility:hidden; }
 .visuallyhidden { position:absolute !important; clip:rect(1px 1px 1px 1px); clip:rect(1px, 1px, 1px, 1px); }
 .invisible { visibility:hidden; }
@@ -74,255 +74,255 @@ html, body { width:100%; height:100%; }
 html { background:#edf1f2 url(../img/bg.png); }
 
 body {
-    position:relative;
-    min-width:320px; min-height:540px;
-    text-align:center;
-    font-family:'Yanone Kaffeesatz', arial, sans-serif;
-    background:transparent url(../img/shimmer-bg.png) top center no-repeat;
-    color:#7d7f80;
+  position:relative;
+  min-width:320px; min-height:540px;
+  text-align:center;
+  font-family:'Yanone Kaffeesatz', arial, sans-serif;
+  background:transparent url(../img/shimmer-bg.png) top center no-repeat;
+  color:#7d7f80;
 }
 
 header { display:none; }
 
 
 /* Vertical centering trick */
-div.middlr {
-    position:absolute;
-    width:100%; height:0;
-    overflow:visible;
+.middlr {
+  position:absolute;
+  width:100%; height:0;
+  overflow:visible;
 }
-div.middlr.main { top:50%; }
-div.middlr.secondary { top:75%; }
+.middlr.main { top:50%; }
+.middlr.secondary { top:75%; }
 
 
 /* .main #content
 ---------------------------------------- */
-div.soon {
-    position:absolute; top:-67px;
-    width:100%; height:134px;
-    font-weight:bold;
-    line-height:1.2; vertical-align:middle;
-    color:#fff;
+.soon {
+  position:absolute; top:-67px;
+  width:100%; height:134px;
+  font-weight:bold;
+  line-height:1.2; vertical-align:middle;
+  color:#fff;
 }
 
-div.soon p {
-    position:relative; top:0;
-    width:245px; height:100px;
-    margin:0 auto;
-    font-size:128px;
-    line-height:100px;
-    text-transform:uppercase;
-    text-shadow:#bbbebf 0 5px 0, rgba(0,0,0,.25) 0 5px 5px;
-    /* filter:dropshadow(color='#bbbebf', offx=0, offy=5); looks awful :/ */
-    -webkit-transition:all 100ms ease-in-out;
-    -moz-transition:all 100ms ease-in-out;
-    transition:all 100ms ease-in-out;
+.soon p {
+  position:relative; top:0;
+  width:245px; height:100px;
+  margin:0 auto;
+  font-size:128px;
+  line-height:100px;
+  text-transform:uppercase;
+  text-shadow:#bbbebf 0 5px 0, rgba(0,0,0,.25) 0 5px 5px;
+  /* filter:dropshadow(color='#bbbebf', offx=0, offy=5); looks awful :/ */
+  -webkit-transition:all 100ms ease-in-out;
+          transition:all 100ms ease-in-out;
 }
 
-div.soon p:hover {
-    position:relative; top:3px;
-    text-shadow:#bbbebf 0 2px 0, rgba(0,0,0,.25) 0 2px 2px;
+.soon p:hover {
+  position:relative; top:3px;
+  text-shadow:#bbbebf 0 2px 0, rgba(0,0,0,.25) 0 2px 2px;
 }
 
-div.soon small {
-    top:0;
-    margin-top:5px;
-    display:block;
-    font-size:24px;
-    text-shadow:#a5a7a8 0 1px 0, #a5a7a8 0 2px 0, rgba(0,0,0,.25) 0 2px 5px;
-    /* filter:dropshadow(color='#a5a7a8', offx=0, offy=2); */
+.soon small {
+  top:0;
+  margin-top:5px;
+  display:block;
+  font-size:24px;
+  text-shadow:#a5a7a8 0 1px 0, #a5a7a8 0 2px 0, rgba(0,0,0,.25) 0 2px 5px;
+  /* filter:dropshadow(color='#a5a7a8', offx=0, offy=2); */
 }
 
 
 /* No 3D text for you, IE. Maybe when you grow up */
-.ie7 div.soon p,
-.ie8 div.soon p,
-.ie7 div.soon small,
-.ie8 div.soon small { color:#7d7f80; }
+.ie7 .soon p,
+.ie8 .soon p,
+.ie7 .soon small,
+.ie8 .soon small { color:#7d7f80; }
 
-.ie7 div.soon p:hover,
-.ie8 div.soon p:hover { top:0; }
+.ie7 .soon p:hover,
+.ie8 .soon p:hover { top:0; }
 
 
 /* .secondary #content
 ---------------------------------------- */
-#content aside {
-    position:absolute; top:-50px;
-    width:100%; height:100px;
+.content aside {
+  position:absolute; top:-50px;
+  width:100%; height:100px;
 }
 
-#content aside p { font-size:22px; }
+.content aside p { font-size:22px; }
 
 
-ul.socialist {
-    width:204px;
-    margin:5px auto;
-    overflow:hidden; /* clearfix */
-    list-style:none inside;
+.socialist {
+  width:204px;
+  margin:5px auto;
+  overflow:hidden; /* clearfix */
+  list-style:none inside;
 }
 
-ul.socialist li,
-ul.socialist li a {
-    background-color:transparent;
-    background-image:url(../img/socialist-bg.png);
-    background-repeat:no-repeat;
+.socialist li,
+.socialist li a {
+  background-color:transparent;
+  background-image:url(../img/socialist-bg.png);
+  background-repeat:no-repeat;
 }
 
-ul.socialist li {
-    margin:5px;
-    -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
-    -webkit-box-shadow:#bfbfbf 0 0 2px;
-    -moz-box-shadow:#bfbfbf 0 0 2px;
-    box-shadow:#bfbfbf 0 0 2px;
-    display:block;
-    float:left;
-    list-style-type:none;
-    background-position:-264px -48px;
-    -webkit-transition:-webkit-box-shadow 100ms ease-in-out;
-    -moz-transition:-moz-box-shadow 100ms ease-in-out;
-    transition:box-shadow 100ms ease-in-out;
+.socialist li {
+  margin:5px;
+  border-radius:2px;
+  box-shadow:#bfbfbf 0 0 2px;
+  display:block;
+  float:left;
+  list-style-type:none;
+  background-color:#bfbfbf;
+  background-position:-288px -48px;
+  -webkit-transition:box-shadow 100ms ease-in-out;
+          transition:box-shadow 100ms ease-in-out;
 }
 
-ul.socialist li:hover {
-    -webkit-box-shadow:#bfbfbf 0 0 4px;
-    -moz-box-shadow:#bfbfbf 0 0 4px;
-    box-shadow:#bfbfbf 0 0 4px;
+.socialist li:hover {
+  box-shadow:#bfbfbf 0 0 4px;
 }
 
-ul.socialist li:active {
-    -webkit-box-shadow:#bfbfbf 0 0 1px;
-    -moz-box-shadow:#bfbfbf 0 0 1px;
-    box-shadow:#bfbfbf 0 0 1px;
+.socialist li:active {
+  box-shadow:#bfbfbf 0 0 1px;
 }
 
-ul.socialist li a {
-    position:relative; top:-2px;
-    width:24px; height:24px;
-    display:inline-block;
-    text-indent:-9999px;
-    -webkit-transition:top 100ms ease-in-out;
-    -moz-transition:top 100ms ease-in-out;
-    transition:top 100ms ease-in-out;
+.socialist li a {
+  position:relative; top:-2px;
+  width:24px; height:24px;
+  display:inline-block;
+  direction:ltr;
+  text-indent:-9999px;
+  -webkit-transition:top 100ms ease-in-out;
+          transition:top 100ms ease-in-out;
 }
 
-ul.socialist li:hover a             { top:-4px; }
+.socialist li:hover a             { top:-4px; }
 
-ul.socialist li.active a,
-ul.socialist li:active a            { top:-1px; }
+.socialist .active a,
+.socialist li:active a            { top:-1px; }
 
-ul.socialist li.linkedin a           { background-position:0 0; }
-ul.socialist li.linkedin:hover a     { background-position:0 -24px; }
-ul.socialist li.linkedin:hover {
-    -webkit-box-shadow:rgba(0,76,117,.75) 0 0 4px;
-    -moz-box-shadow:rgba(0,76,117,.75) 0 0 4px;
-    box-shadow:rgba(0,76,117,.75) 0 0 4px;
-    background-position:0 -48px;
+.socialist .linkedin a           { background-position:0 0; }
+.socialist .linkedin:hover a     { background-position:0 -24px; }
+.socialist .linkedin:hover {
+  box-shadow:rgba(0,76,117,.75) 0 0 4px;
+  background-position:0 -48px;
 }
 
-ul.socialist li.github a            { background-position:-24px 0; }
-ul.socialist li.github:hover a      { background-position:-24px -24px; }
-ul.socialist li.github:hover {
-    -webkit-box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    -moz-box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    box-shadow:rgba(0,0,0,.5) 0 0 4px;
-    background-position:-24px -48px;
+.socialist .github a            { background-position:-24px 0; }
+.socialist .github:hover a      { background-position:-24px -24px; }
+.socialist .github:hover {
+  box-shadow:rgba(0,0,0,.5) 0 0 4px;
+  background-position:-24px -48px;
 }
 
-ul.socialist li.stackoverflow a           { background-position:-48px 0; }
-ul.socialist li.stackoverflow:hover a     { background-position:-48px -24px; }
-ul.socialist li.stackoverflow:hover       { background-position:-48px -48px; }
+.socialist .stackoverflow a           { background-position:-48px 0; }
+.socialist .stackoverflow:hover a     { background-position:-48px -24px; }
+.socialist .stackoverflow:hover       { background-position:-48px -48px; }
 
-ul.socialist li.delicious a            { background-position:-72px 0; }
-ul.socialist li.delicious:hover a      { background-position:-72px -24px; }
-ul.socialist li.delicious:hover {
-    -webkit-box-shadow:rgba(145,145,145,.75) 0 0 4px;
-    -moz-box-shadow:rgba(145,145,145,.75) 0 0 4px;
-    box-shadow:rgba(145,145,145,.75) 0 0 4px;
-    background-position:-72px -48px;
+.socialist .delicious a            { background-position:-72px 0; }
+.socialist .delicious:hover a      { background-position:-72px -24px; }
+.socialist .delicious:hover {
+  box-shadow:rgba(145,145,145,.75) 0 0 4px;
+  background-position:-72px -48px;
 }
 
-ul.socialist li.dribbble a            { background-position:-96px 0; }
-ul.socialist li.dribbble:hover a      { background-position:-96px -24px; }
-ul.socialist li.dribbble:hover {
-    -webkit-box-shadow:rgba(161,51,93,.75) 0 0 4px;
-    -moz-box-shadow:rgba(161,51,93,.75) 0 0 4px;
-    box-shadow:rgba(161,51,93,.75) 0 0 4px;
-    background-position:-96px -48px;
+.socialist .dribbble a            { background-position:-96px 0; }
+.socialist .dribbble:hover a      { background-position:-96px -24px; }
+.socialist .dribbble:hover {
+  box-shadow:rgba(161,51,93,.75) 0 0 4px;
+  background-position:-96px -48px;
 }
 
-ul.socialist li.instagram a            { background-position:-120px 0; }
-ul.socialist li.instagram:hover a      { background-position:-120px -24px; }
-ul.socialist li.instagram:hover {
-    -webkit-box-shadow:rgba(116,112,106,.75) 0 0 4px;
-    -moz-box-shadow:rgba(116,112,106,.75) 0 0 4px;
-    box-shadow:rgba(116,112,106,.75) 0 0 4px;
-    background-position:-120px -48px;
+.socialist .domestika a            { background-position:-120px 0; }
+.socialist .domestika:hover a      { background-position:-120px -24px; }
+.socialist .domestika:hover {
+  box-shadow:rgba(120,22,0,.75) 0 0 4px;
+  background-position:-120px -48px;
 }
 
-ul.socialist li.soundcloud a        { background-position:-144px 0; }
-ul.socialist li.soundcloud:hover a  { background-position:-144px -24px; }
-ul.socialist li.soundcloud:hover {
-    -webkit-box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    -moz-box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    box-shadow:rgba(191,43,2,.75) 0 0 4px;
-    background-position:-144px -48px;
+.socialist .instagram a            { background-position:-144px 0; }
+.socialist .instagram:hover a      { background-position:-144px -24px; }
+.socialist .instagram:hover {
+  box-shadow:rgba(116,112,106,.75) 0 0 4px;
+  background-position:-144px -48px;
 }
 
-ul.socialist li.lastfm a           { background-position:-168px 0; }
-ul.socialist li.lastfm:hover a     { background-position:-168px -24px; }
-ul.socialist li.lastfm:hover {
-    -webkit-box-shadow:rgba(140,11,4,.75) 0 0 4px;
-    -moz-box-shadow:rgba(140,11,4,.75) 0 0 4px;
-    box-shadow:rgba(140,11,4,.75) 0 0 4px;
-    background-position:-168px -48px;
+.socialist .soundcloud a        { background-position:-168px 0; }
+.socialist .soundcloud:hover a  { background-position:-168px -24px; }
+.socialist .soundcloud:hover {
+  box-shadow:rgba(191,43,2,.75) 0 0 4px;
+  background-position:-168px -48px;
 }
 
-ul.socialist li.tumblr a            { background-position:-192px 0; }
-ul.socialist li.tumblr:hover a      { background-position:-192px -24px; }
-ul.socialist li.tumblr:hover {
-    -webkit-box-shadow:rgba(46,56,71,.75) 0 0 4px;
-    -moz-box-shadow:rgba(46,56,71,.75) 0 0 4px;
-    box-shadow:rgba(46,56,71,.75) 0 0 4px;
-    background-position:-192px -48px;
+.socialist .lastfm a           { background-position:-192px 0; }
+.socialist .lastfm:hover a     { background-position:-192px -24px; }
+.socialist .lastfm:hover {
+  box-shadow:rgba(140,11,4,.75) 0 0 4px;
+  background-position:-192px -48px;
 }
 
-ul.socialist li.youtube a           { background-position:-216px 0; }
-ul.socialist li.youtube:hover a     { background-position:-216px -24px; }
-ul.socialist li.youtube:hover       { background-position:-216px -48px; }
-
-ul.socialist li.foursquare a            { background-position:-240px 0; }
-ul.socialist li.foursquare:hover a      { background-position:-240px -24px; }
-ul.socialist li.foursquare:hover {
-    -webkit-box-shadow:rgba(6,93,111,.75) 0 0 4px;
-    -moz-box-shadow:rgba(6,93,111,.75) 0 0 4px;
-    box-shadow:rgba(6,93,111,.75) 0 0 4px;
-    background-position:-240px -48px;
+.socialist .tumblr a            { background-position:-216px 0; }
+.socialist .tumblr:hover a      { background-position:-216px -24px; }
+.socialist .tumblr:hover {
+  box-shadow:rgba(46,56,71,.75) 0 0 4px;
+  background-position:-216px -48px;
 }
 
-ul.socialist li.fancy a            { background-position:-264px 0; }
-ul.socialist li.fancy:hover a      { background-position:-264px -24px; }
-ul.socialist li.fancy:hover        { background-position:-264px -48px; }
+.socialist .youtube a           { background-position:-240px 0; }
+.socialist .youtube:hover a     { background-position:-240px -24px; }
+.socialist .youtube:hover       { background-position:-240px -48px; }
 
+.socialist .twitter a            { background-position:-264px 0; }
+.socialist .twitter:hover a      { background-position:-264px -24px; }
+.socialist .twitter:hover {
+  box-shadow:rgba(0,90,120,.75) 0 0 4px;
+  background-position:-264px -48px;
+}
 
 
 /* Grade-A Mobile Browsers */
+@media  (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  html {
+    background-image:url(../img/bg@2x.png);
+    background-size:100px;
+  }
+
+
+  body {
+    background-image:url(../img/shimmer-bg@2x.png);
+    background-size:640px 320px;
+  }
+
+  .socialist li,
+  .socialist li a {
+    background-image:url(../img/socialist-bg@2x.png);
+    background-size:288px 72px;
+  }
+
+}
+
+@media screen and (max-device-width:480px) {
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+}
+
 @media screen and (max-device-width:480px) and (orientation:portrait) {
-    html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+  body { min-height:416px; }
 
-    body { min-height:416px; }
-
-    div.middlr.main { top:33%; }
-    div.middlr.secondary { top:75%; }
+  .middlr.main { top:33%; }
+  .middlr.secondary { top:75%; }
 }
 
 @media screen and (max-device-width:480px) and (orientation:landscape) {
-    html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+  body { min-height:268px; }
 
-    body { min-height:268px; }
+  .middlr.main { top:25%; }
+  .middlr.secondary { top:66%; }
 
-    div.middlr.main { top:25%; }
-    div.middlr.secondary { top:66%; }
-
-    div.soon { -webkit-transform:scale(.5); }
+  .soon {
+    -webkit-transform:scale(.5);
+            transform:scale(.5);
+  }
 }
 
