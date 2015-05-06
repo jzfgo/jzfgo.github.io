@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE squad SYSTEM "squad.dtd">
-<squad nick="[Z]">
+<squad nick="Z">
     <name>Patrulla Z</name>
     <email>lapatrullaz@gmail.com</email>
     <web>http://www.patrullaz.es</web>
     <picture>76561197989568819.paa</picture>
-    <title>N/A</title>
-    <member id="76561197989568819" nick="JotaZeta">
+    <title>Z</title>
+    <member id="76561197989568819" nick="[Z] JotaZeta">
         <name>JotaZeta</name>
         <email>N/A</email>
         <icq>N/A</icq>
