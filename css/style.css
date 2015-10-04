@@ -235,10 +235,10 @@ header { display:none; }
   background-position:-96px -48px;
 }
 
-.socialist .domestika a            { background-position:-120px 0; }
-.socialist .domestika:hover a      { background-position:-120px -24px; }
-.socialist .domestika:hover {
-  box-shadow:rgba(120,22,0,.75) 0 0 4px;
+.socialist .spotify a            { background-position:-120px 0; }
+.socialist .spotify:hover a      { background-position:-120px -24px; }
+.socialist .spotify:hover {
+  box-shadow:rgba(22,161,71,.75) 0 0 4px;
   background-position:-120px -48px;
 }
 
