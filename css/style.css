@@ -245,7 +245,7 @@ header { display:none; }
 .socialist .instagram a            { background-position:-144px 0; }
 .socialist .instagram:hover a      { background-position:-144px -24px; }
 .socialist .instagram:hover {
-  box-shadow:rgba(116,112,106,.75) 0 0 4px;
+  box-shadow:rgba(223,51,128,.75) 0 0 4px;
   background-position:-144px -48px;
 }
 
