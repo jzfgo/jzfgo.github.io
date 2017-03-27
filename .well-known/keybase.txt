@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/jzf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://javi.io
+  * I am jzf (https://keybase.io/jzf) on keybase.
+  * I have a public key with fingerprint 201C 51DD 5A86 5014 24EF  B38B 4F15 3898 A5EE 27F9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012097c778ae300d1af1a4f4ad519277179b275b0c0bc7804b9ca636a24f72ffa52f0a",
+            "fingerprint": "201c51dd5a86501424efb38b4f153898a5ee27f9",
+            "host": "keybase.io",
+            "key_id": "4f153898a5ee27f9",
+            "kid": "0101636720d3da7612251d6889b8b2fa12211ad7b25851a2176235e5c0befb8471440a",
+            "uid": "32261d8ce94c155cc4185725acd16e19",
+            "username": "jzf"
+        },
+        "revoke": {
+            "sig_ids": [
+                "7ad40265a4c9a799ed80e78e15bae0c8f9dbf1fa64f4e525ba18e3b9a90443f60f"
+            ]
+        },
+        "service": {
+            "hostname": "javi.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1490600926,
+    "expire_in": 157680000,
+    "prev": "0ed0494e410894932d43a59946cc8b5daa52a59362d2aa4e94ec0cb83d607576",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMOjAnicbVJrTFRHGN2tghVLLK3aJjSVXjWARTszd+6LqIUEKltgCTYaXmade+9c
+vCzdXfalyCtIrLJCImvQrX35KD6atgRRrK2tBY3a0rQRwdaaaB9iUXyU1NpKjHaW
+1n+dP5Pvy/nOOXPmOxk/yRJnLZgpRzpuJd+z9vdeC1iKfjhxqYZT3Xo1l17DOenE
+RSt16vM7nKbOpXMAIqBImiTJhPIA6JAYkGADE12ACpIkKCkqkgQVaEDVJBlgVdGI
+yIsEYUNChkEEZADCpXGG6SqnXo/XdPkZLQJQE6CuC0QWBQAxwtRQeVnFBhR4WZGJ
+QCmSDIUNrnb7ohPMnEp8dKHpZj1WOCbs/Q/+kW8AmQ0JAZ3XiSRChJieKMuKKqvI
+IKyGkOiSigRZgARBSUS8QAX2DOZExhLEeMJ3YIKOR0iEuqxRBWtQEDQNQ1mQkEA0
+HYoURnUDPup1kdcpQ1esM7i6NM5Lg24njUbqM8uZXx+XXspJRMcAiQLBmkIkRaG6
+DKgkUyiohAJNNhRdNaBBRBYyFRDrQpnyqkIUgDFviMDgVjJuJhY0tQnyaECPhEnQ
+/Dchj9ftd2vuStZc7fd70qN+/NWeKGgNVR3/jTtU06Wzj2EDQer1mW4Xlw4ZUvOb
+UT6IFSACoCAxjaNrPaaXOswoQpBEGbATlaHBaNpUB1jBFEMgK1jhkY55IigKFjVN
+VgWdsDVgNS8iHRGCWYpUA5oq87oIJMbGRR9U5XIzbiblJ+WMk2XmIv6Al3J1fb1l
+ky3WOEtszGPRjbXETX3y0R4/njr9oX1B3qFnClcZHmBfFR7e06TFz/ticHHOpKRs
+DTW2jojar/tM19wu652U213zRhNid7zwsfLby3b482BiZ4L1xS1n2jO8v5SW3zky
+2G7f3VLxblK3s35oQ2Osva2HR89bp6jf30TD87/aNMObG6qtK2s4mFm7M/W7zNmn
+lwQiizZKDR+1HU0pt1XOJNnNc6uWDAWd8MaicKhkmtMXyp3fk7xv3bnMqVuuXAwX
+26+Cb3auTr6YPVp8/nNT+TQxcts9mvdE/4ac2e8cIrZvvXtiLu6tXPrwy7i2A7YT
+/jf3TSONkcyCt2fZrt5YfL/e8cb1D+bMP9YycrO5qQG+Mp6x3pGfc2/XcUm1bap/
+L+Vw1V0yUDX5bN/hLOn85bXdl31tPVPMTt56erT/VLMl1LO245PKn1LXNyfFfx3Z
+2rJ/bHLyAVfimPNUfny1mrPifsf45kBXLsy623tNPzg9/+SlvlvbGxpLq/f/nVUb
+HPtwQcvCZ2e1j2/7Pbw5fLSmfqAsErDVn1tW09snLs8TSzOOja94ECreceuGrfZI
+4+2it8Y6Wzc+lbKuKrd923Jre/fSK40h/sGAvyIUWbDLtJT1tzYJwQvBNS8JMcNF
+iZv/KHq6YdVhkJUQ01ty5rXrKzP84d3hh39t9YZHfnx/xmD38T+f00qWpZXj3oLQ
+0Nn9xRe2t3GFr5ZECgs/2/sP7InUDg==
+=J1UZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jzf
+
+==================================================================
