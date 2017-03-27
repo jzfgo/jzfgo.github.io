@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jzf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://javi.io
+  * I am jzf (https://keybase.io/jzf) on keybase.
+  * I have a public key ASCXx3iuMA0a8aT0rVGSdxebJ1sMC8eAS5ymNqJPcv-lLwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012097c778ae300d1af1a4f4ad519277179b275b0c0bc7804b9ca636a24f72ffa52f0a",
+            "host": "keybase.io",
+            "kid": "012097c778ae300d1af1a4f4ad519277179b275b0c0bc7804b9ca636a24f72ffa52f0a",
+            "uid": "32261d8ce94c155cc4185725acd16e19",
+            "username": "jzf"
+        },
+        "service": {
+            "hostname": "javi.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1490574821,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1490574798,
+        "hash": "027c432f4446a7b48ffe9544fd5ec28e81792e9da87584a1090819bc87107a1b9dea8f519fe80c3620b485d454a32dbbf0550d4d7561353189cb918059a08c2d",
+        "seqno": 979482
+    },
+    "prev": "832f3f692211c35bff92931706f305a4d99f1001f21ae2a993c49bd66f6f03cb",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgl8d4rjANGvGk9K1RkncXmydbDAvHgEucpjaiT3L/pS8Kp3BheWxvYWTFAup7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTdjNzc4YWUzMDBkMWFmMWE0ZjRhZDUxOTI3NzE3OWIyNzViMGMwYmM3ODA0YjljYTYzNmEyNGY3MmZmYTUyZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTdjNzc4YWUzMDBkMWFmMWE0ZjRhZDUxOTI3NzE3OWIyNzViMGMwYmM3ODA0YjljYTYzNmEyNGY3MmZmYTUyZjBhIiwidWlkIjoiMzIyNjFkOGNlOTRjMTU1Y2M0MTg1NzI1YWNkMTZlMTkiLCJ1c2VybmFtZSI6Imp6ZiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiamF2aS5pbyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjAifSwiY3RpbWUiOjE0OTA1NzQ4MjEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5MDU3NDc5OCwiaGFzaCI6IjAyN2M0MzJmNDQ0NmE3YjQ4ZmZlOTU0NGZkNWVjMjhlODE3OTJlOWRhODc1ODRhMTA5MDgxOWJjODcxMDdhMWI5ZGVhOGY1MTlmZTgwYzM2MjBiNDg1ZDQ1NGEzMmRiYmYwNTUwZDRkNzU2MTM1MzE4OWNiOTE4MDU5YTA4YzJkIiwic2Vxbm8iOjk3OTQ4Mn0sInByZXYiOiI4MzJmM2Y2OTIyMTFjMzViZmY5MjkzMTcwNmYzMDVhNGQ5OWYxMDAxZjIxYWUyYTk5M2M0OWJkNjZmNmYwM2NiIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQCjNLi0lR3yyZjduqSori5TrCjccfTyIcqGo5t6UuqXc0o/7lBFqbxsUc/xGQf64grOijyZJnvqavJO1zrE5aQ+oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDMWkJ8sNESB02YwOQ0G09V7HgX5xR9HY6vAYjDwBfXpqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jzf
+
+==================================================================
