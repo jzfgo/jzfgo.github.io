@@ -221,45 +221,45 @@ header { display:none; }
 .socialist .stackoverflow:hover a     { background-position:-48px -24px; }
 .socialist .stackoverflow:hover       { background-position:-48px -48px; }
 
-.socialist .delicious a            { background-position:-72px 0; }
-.socialist .delicious:hover a      { background-position:-72px -24px; }
-.socialist .delicious:hover {
-  box-shadow:rgba(145,145,145,.75) 0 0 4px;
+.socialist .dribbble a            { background-position:-72px 0; }
+.socialist .dribbble:hover a      { background-position:-72px -24px; }
+.socialist .dribbble:hover {
+  box-shadow:rgba(161,51,93,.75) 0 0 4px;
   background-position:-72px -48px;
 }
 
-.socialist .dribbble a            { background-position:-96px 0; }
-.socialist .dribbble:hover a      { background-position:-96px -24px; }
-.socialist .dribbble:hover {
-  box-shadow:rgba(161,51,93,.75) 0 0 4px;
+.socialist .instagram a            { background-position:-96px 0; }
+.socialist .instagram:hover a      { background-position:-96px -24px; }
+.socialist .instagram:hover {
+  box-shadow:rgba(223,51,128,.75) 0 0 4px;
   background-position:-96px -48px;
 }
 
-.socialist .spotify a            { background-position:-120px 0; }
-.socialist .spotify:hover a      { background-position:-120px -24px; }
-.socialist .spotify:hover {
-  box-shadow:rgba(22,161,71,.75) 0 0 4px;
+.socialist .goodreads a            { background-position:-120px 0; }
+.socialist .goodreads:hover a      { background-position:-120px -24px; }
+.socialist .goodreads:hover {
+  box-shadow:rgba(180,154,106,.75) 0 0 4px;
   background-position:-120px -48px;
 }
 
-.socialist .instagram a            { background-position:-144px 0; }
-.socialist .instagram:hover a      { background-position:-144px -24px; }
-.socialist .instagram:hover {
-  box-shadow:rgba(223,51,128,.75) 0 0 4px;
+.socialist .lastfm a           { background-position:-144px 0; }
+.socialist .lastfm:hover a     { background-position:-144px -24px; }
+.socialist .lastfm:hover {
+  box-shadow:rgba(140,11,4,.75) 0 0 4px;
   background-position:-144px -48px;
 }
 
-.socialist .soundcloud a        { background-position:-168px 0; }
-.socialist .soundcloud:hover a  { background-position:-168px -24px; }
-.socialist .soundcloud:hover {
-  box-shadow:rgba(191,43,2,.75) 0 0 4px;
+.socialist .spotify a            { background-position:-168px 0; }
+.socialist .spotify:hover a      { background-position:-168px -24px; }
+.socialist .spotify:hover {
+  box-shadow:rgba(22,161,71,.75) 0 0 4px;
   background-position:-168px -48px;
 }
 
-.socialist .lastfm a           { background-position:-192px 0; }
-.socialist .lastfm:hover a     { background-position:-192px -24px; }
-.socialist .lastfm:hover {
-  box-shadow:rgba(140,11,4,.75) 0 0 4px;
+.socialist .soundcloud a        { background-position:-192px 0; }
+.socialist .soundcloud:hover a  { background-position:-192px -24px; }
+.socialist .soundcloud:hover {
+  box-shadow:rgba(191,43,2,.75) 0 0 4px;
   background-position:-192px -48px;
 }
 
@@ -270,16 +270,16 @@ header { display:none; }
   background-position:-216px -48px;
 }
 
-.socialist .youtube a           { background-position:-240px 0; }
-.socialist .youtube:hover a     { background-position:-240px -24px; }
-.socialist .youtube:hover       { background-position:-240px -48px; }
-
-.socialist .twitter a            { background-position:-264px 0; }
-.socialist .twitter:hover a      { background-position:-264px -24px; }
+.socialist .twitter a            { background-position:-240px 0; }
+.socialist .twitter:hover a      { background-position:-240px -24px; }
 .socialist .twitter:hover {
   box-shadow:rgba(0,90,120,.75) 0 0 4px;
-  background-position:-264px -48px;
+  background-position:-240px -48px;
 }
+
+.socialist .youtube a           { background-position:-264px 0; }
+.socialist .youtube:hover a     { background-position:-264px -24px; }
+.socialist .youtube:hover       { background-position:-264px -48px; }
 
 
 /* Grade-A Mobile Browsers */
@@ -325,4 +325,3 @@ header { display:none; }
             transform:scale(.5);
   }
 }
-
